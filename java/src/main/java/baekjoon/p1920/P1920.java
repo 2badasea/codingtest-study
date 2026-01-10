@@ -46,7 +46,7 @@ public class P1920 {
 			}
 		}
 		
-		br.close();;
+		br.close();
 		bw.write(sb.toString());
 		bw.flush();
 		// bw.close(); // 굳이 닫지 않는 것을 권장(특히 System.out 래핑 시)
