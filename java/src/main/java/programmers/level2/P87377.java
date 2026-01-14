@@ -8,6 +8,7 @@ import java.util.List;
  * Platform: Programmers
  * Problem: 87377
  * Title: 교점에 별 구하기
+ * 정답률: 33%
  * URL: https://school.programmers.co.kr/learn/courses/30/lessons/87377
  * NOTE:
  */
