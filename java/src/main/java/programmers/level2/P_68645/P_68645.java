@@ -1,4 +1,4 @@
-package programmers.level2;
+package programmers.level2.P_68645;
 
 /**
  * Platform: Programmers
@@ -7,7 +7,7 @@ package programmers.level2;
  * 정답률: 55%
  * URL: https://school.programmers.co.kr/learn/courses/30/lessons/68645
  */
-public class P68645 {
+public class P_68645 {
 	
 	// n은 1이상 1000 이하
 	public int[] solution(int n) {
