@@ -1,4 +1,4 @@
-package programmers.level2.P_81302;
+package programmers.level2.거리두기_확인하기;
 
 /**
  * Platform: Programmers

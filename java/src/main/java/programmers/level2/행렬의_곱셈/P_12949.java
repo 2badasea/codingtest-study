@@ -1,4 +1,4 @@
-package programmers.level2.P_12949;
+package programmers.level2.행렬의_곱셈;
 
 /**
  * Platform: Programmers

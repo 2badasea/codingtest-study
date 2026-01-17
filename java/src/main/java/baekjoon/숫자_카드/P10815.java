@@ -1,4 +1,4 @@
-package baekjoon.p10815;
+package baekjoon.숫자_카드;
 
 import java.io.*;
 import java.util.Arrays;

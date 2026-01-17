@@ -1,4 +1,4 @@
-package baekjoon.p10816;
+package baekjoon.숫자_카드_2;
 
 import java.io.*;
 import java.util.HashMap;

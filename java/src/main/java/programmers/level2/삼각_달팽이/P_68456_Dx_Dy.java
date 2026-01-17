@@ -1,4 +1,4 @@
-package programmers.level2.P_68645;
+package programmers.level2.삼각_달팽이;
 
 /**
  * Platform: Programmers

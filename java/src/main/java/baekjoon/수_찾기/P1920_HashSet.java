@@ -1,4 +1,4 @@
-package baekjoon.p1920;
+package baekjoon.수_찾기;
 
 import java.io.*;
 import java.util.HashSet;

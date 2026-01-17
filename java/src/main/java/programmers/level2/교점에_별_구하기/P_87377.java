@@ -1,4 +1,4 @@
-package programmers.level2;
+package programmers.level2.교점에_별_구하기;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import java.util.List;
  * URL: https://school.programmers.co.kr/learn/courses/30/lessons/87377
  * NOTE:
  */
-public class P87377 {
+public class P_87377 {
 	
 	// 1. n개의 line이 주어짐
 	// 2. 모든 직선 쌍에 대해서 반복 필요 => 돌면서 교점 좌표를 구하여 정수인 것들만 반환 -> x, y축의 최소, 최대크기를 구하여, '.'로 채우기 -> 별채우기 -> 배열 반환
