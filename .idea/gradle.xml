@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleSettings">
-    <option name="linkedExternalProjectsSettings">
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java" />
-<<<<<<< HEAD
-        <option name="gradleJvm" value="#JAVA_HOME" />
-=======
-        <option name="gradleJvm" value="corretto-17" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java" />
-          </set>
-        </option>
->>>>>>> 0addc68accb578da399782ddef447e59ebebccc7
-      </GradleProjectSettings>
-    </option>
-  </component>
+  <component name="GradleMigrationSettings" migrationVersion="1" />
 </project>
