@@ -3,9 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/codingtest-study.iml" filepath="$PROJECT_DIR$/.idea/codingtest-study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java.iml" filepath="$PROJECT_DIR$/.idea/modules/java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java.test.iml" />
     </modules>
   </component>
 </project>
