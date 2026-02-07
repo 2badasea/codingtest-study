@@ -11,14 +11,34 @@ import java.util.Arrays;
 public class P_42747 {
 	
 	public int solution(int[] citations) {
-		int answer = 0;
 		
-		// 발표 논문 수가 citations.length일 때, 인용횟수의 최소, 최대값은 0~citations.length임.
 		Arrays.sort(citations);
+		for (int h = citations.length; h > 0; h--) {
+			if (isValid2(citations, h)) {
+				return h;
+			}
+			// if (isValid(citations, h)) {
+			// 	return h;
+			// }
+		}
+		return 0;
+	}
+	
+	private boolean isValid2(int[] citations, int h) {
+		int index = citations.length - h;
+		return citations[index] >= h;
 		
+	}
+	
+	private boolean isValid(int[] citations, int h) {
+		int cnt = 0;
 		
-		
-		return answer;
+		for (int citation : citations) {
+			if (citation >= h) {
+				cnt++;
+			}
+		}
+		return cnt >= h;
 	}
 	
 }
