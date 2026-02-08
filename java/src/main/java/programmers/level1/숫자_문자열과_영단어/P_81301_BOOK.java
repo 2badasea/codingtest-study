@@ -11,7 +11,7 @@ import java.util.Map;
  * URL: https://school.programmers.co.kr/learn/courses/30/lessons/81301
  * NOTE: 교재 풀이 => 영어단어가 담긴 String 배열의 인덱스 활용
  */
-public class P_81302_BOOK {
+public class P_81301_BOOK {
 	
 	public int solution(String s) {
 		String[] numArys = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};

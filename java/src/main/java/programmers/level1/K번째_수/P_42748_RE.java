@@ -2,13 +2,7 @@ package programmers.level1.K번째_수;
 
 import java.util.Arrays;
 
-/**
- * Platform: Programmers
- * Problem: 42748
- * Title: K번째 수
- * URL: https://school.programmers.co.kr/learn/courses/30/lessons/42748
- */
-public class P_42748 {
+public class P_42748_RE {
 	
 	public int[] solution(int[] array, int[][] commands) {
 		int[] answer = new int[commands.length];

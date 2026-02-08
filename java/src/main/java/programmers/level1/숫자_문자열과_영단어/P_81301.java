@@ -11,7 +11,7 @@ import java.util.Map;
  * URL: https://school.programmers.co.kr/learn/courses/30/lessons/81301
  * NOTE: 아래 주석처리된 부분과 같이 람다식의 경우에 .forEach 안에서는 외부 지역 변수(s)의 값을 변경할 수 없음 -> 람다식이 아닌 for문으로 해결
  */
-public class P_81302 {
+public class P_81301 {
 	
 	public int solution(String s) {
 		Map<String, String> map = new HashMap<String, String>();
