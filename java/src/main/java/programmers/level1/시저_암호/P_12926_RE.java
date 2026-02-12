@@ -1,10 +1,7 @@
-package com.bada;
+package programmers.level1.시저_암호;
 
-public class Main {
-	
-	public static void main(String[] args) {
-		Main m = new Main();
-	}
+// 재풀이
+public class P_12926 {
 	
 	public String solution(String s, int n) {
 		StringBuilder sb = new StringBuilder();
@@ -21,7 +18,6 @@ public class Main {
 		if (Character.isWhitespace(c)) {
 			return c;
 		}
-		//
 		char st = Character.isUpperCase(c) ? 'A' : 'a';
 		int curPosition = c - st;    // 기준점을 기준으로 어느 정도 거리에 위치해있는지
 		int newPosition = curPosition + n;
@@ -31,5 +27,4 @@ public class Main {
 			return (char) (c + n);
 		}
 	}
-	
 }
