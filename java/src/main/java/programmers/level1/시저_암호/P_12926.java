@@ -27,4 +27,5 @@ public class P_12926 {
 		int newPosition = (curPosition + n) % ('Z' - 'A' + 1);
 		return (char) (newPosition + offSet);
 	}
+	
 }
