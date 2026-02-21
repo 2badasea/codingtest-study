@@ -23,7 +23,6 @@ public class P_12930_RE {
 			}
 			isNextUpper = !isNextUpper;
 		}
-		
 		return sb.toString();
 	}
 }

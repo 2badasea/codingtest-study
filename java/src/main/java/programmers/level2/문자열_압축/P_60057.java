@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Platform: Programmers
  * Problem: 60057
- * Title: 문자열 압축
+ * Title: 문자열 압축`
  * 정답률: 44%
  * URL: https://school.programmers.co.kr/learn/courses/30/lessons/60057
  */
