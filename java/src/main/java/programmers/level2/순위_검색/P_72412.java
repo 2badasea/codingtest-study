@@ -8,11 +8,11 @@ import java.util.function.Consumer;
  * Problem: 72412
  * Title: 순위_검색
  * URL: https://school.programmers.co.kr/learn/courses/30/lessons/72412
+ * 교재 풀이
  */
 public class P_72412 {
 	
 	public int[] solution(String[] info, String[] query) {
-		// 왜 map구조로 해야 했는지?  참가자 수 N에 대해서 질의 M을 만족하는지 모두 체크 -> N * M (50,000 * 100,000 => 약 50억의 시간복잡도로 구성)
 		// 개별 참가자별 조합할 수 있는 모든 조합 구성. 해당 구성과 그에 따른 점수를 관리
 		Map<String, List<Integer>> conditions = buildConditions(info);
 		int[] answer = new int[query.length];
