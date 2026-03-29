@@ -1,6 +1,11 @@
 package programmers.level2.스킬_트리;
 
 
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.stream.Stream;
+
 /**
  * Platform: Programmers
  * Problem: P49993
@@ -12,12 +17,18 @@ public class P49993 {
 	public int solution(String skill, String[] skill_trees) {
 		int answer = 0;
 		for (String tree : skill_trees) {
+			// 1) 트리순회 방식
 			if (verifyOrder(skill, tree)) {
-				System.out.println("상승: " + tree);
 				answer++;
 			}
+			// 2) skill순회 방식
+			// if (verifyLoopSkill(skill, tree)) {
+			// 	answer++;
+			// }
 		}
-		// 순서가 보장?
+		// 3) 교재풀이 방식
+		answer = verifyByBook(skill, skill_trees);
+		
 		return answer;
 	}
 	
@@ -62,6 +73,17 @@ public class P49993 {
 		}
 		return true;
 	}
+	
+	// 교재풀이방식 (복습)
+	private int verifyByBook(String skill, String[] tree) {
+		// skill에 포함되지 않는 문자열을 모두 제거한 뒤에 tree가 skill순서와 일치하는지 체크
+		Stream<String> stream = Arrays.stream(tree);
+		stream = stream.map(s -> s.replaceAll("[^" + skill + "]", ""));
+		stream = stream.filter(skill::startsWith);
+		return (int) stream.count();
+	}
+	
+	// 큐 활용방식
 	
 	public static void main(String[] args) {
 		P49993 p49993 = new P49993();
